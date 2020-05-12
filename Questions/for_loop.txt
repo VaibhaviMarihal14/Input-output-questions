@@ -1,0 +1,370 @@
+1. What will be the output of the following program?
+
+public class LoopExample
+{
+    public static void main(String[] args)
+    {
+        for (char i = 0, j = 6; i < 5 && j > 0; i++, --j)
+        {
+            System.out.print((int) i + " " + (int) j + ", ");
+        }
+    }
+}
+
+
+Options:
+1.	0 6, 1 5, 2 4, 3 3, 4 2,
+2.	Some other output
+3.	Compilation Error
+4.	Runtime Error
+
+
+
+
+
+
+
+
+
+
+2. what will be the output of the following program?
+
+public
+class Test { 
+public
+	static void main(String[] args) 
+	{ 
+		for (int i = 0; i < 10; i++) 
+			int x = 10; 
+	} 
+} 
+
+
+Options:
+1. No Output
+2. 10
+3. Compile time error
+4. 10 (10 times)
+
+
+
+
+
+
+
+
+
+
+3.what will be the output of the following program?
+
+public
+class Test { 
+public
+    static void main(String[] args) 
+    { 
+        for (int i = 0, String = "GFG"; i < 2; i++) 
+            System.out.println("HELLO GEEKS"); 
+    } 
+} 
+
+Options:
+1. HELLO GEEKS
+2. Compile time error
+3. HELLO GEEKS
+HELLO GEEKS
+HELLO GEEKS
+4. No Output
+
+
+
+
+
+
+
+
+
+4.What will be the output of the following program?
+
+class ForSample
+{
+
+    public static void main(String s[])
+    {
+        for(int i = 0; i <= 5; i++ )
+        {
+            System.out.println("i = " + i );
+        }
+
+        System.out.println("i after the loop = " + i );
+    }
+}
+
+Option:
+1.	i = 0
+	i = 1
+	i = 2
+	i = 3
+	i = 4
+	i = 5
+	i after the loop = 6
+
+2.	i = 0
+	i = 1
+	i = 2
+	i = 3
+	i = 4
+	i = 5
+	i = 6
+
+3.	Compilation Errors
+
+4.	i = 0
+	i = 1
+	i = 2
+	i = 3
+	i = 4
+	i = 5
+
+
+
+
+
+
+
+
+
+
+
+
+5. What will be the output of the following program?
+
+class ForSample
+{
+    public static void main(String s[])
+    {
+        for(int i = 10; i <= 5; i-- )
+        {
+            System.out.println("i = " + i );
+        }
+    }
+}
+
+Option:
+
+1. 	i = 10                     3.	Compilation Errors                      
+	i = 9
+	i = 8
+	i = 7
+	i = 6
+
+2.	i = 10                     4.	No Output
+	i = 9
+	i = 8
+	i = 7
+	i = 6
+	i = 5
+	i = 4
+	i = 3
+	i = 2
+	i = 1
+
+
+
+
+
+
+
+
+
+
+
+
+6. What will be the output of the following program?
+
+class ForTest
+{
+    public static void main(String[] args)
+    {
+        for (char i = 'A'; i <= 'G'; i++)
+        {
+            if (i % 5 == 0)
+            {
+                System.out.print((char) (i - 'A' + 'a'));
+            }
+            else if (i % 2 == 0)
+            {
+                System.out.print((int) i);
+            }
+            else
+            {
+                System.out.print(i);
+            }
+            System.out.print('~');
+        }
+    }
+}
+
+Option:
+1.	A~98~C~100~E~F~G~
+
+2.	65~b~C~d~E~70~G~
+
+3.	97~B~C~D~E~102~G~
+
+4.	a~66~C~68~E~f~G~
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. What will be the output of the following program?
+
+class OutPut
+{
+    public static void main(String s[])
+    {
+        int i = 5;
+        for(; i < 6 || i >= 0; )
+            
+            switch(i)
+            {
+                case 0:
+                System.out.println("i is zero.");
+                i++;
+                break;
+        
+                case 1:
+                System.out.println("i is one.");
+                i++;
+                break;
+    
+                case 2:
+                System.out.println("i is two.");
+                i++;
+                continue;
+    
+                case 3:
+                System.out.println("i is three.");
+                i++;
+                break;
+        
+                default:
+                System.out.println("i is greater than three.");
+                i -= 6;
+            }
+    }
+}
+
+Options:
+1.	i is greater than three.                        3.	Compilation Error
+
+2.	i is zero.                                      4.	Runtime Error
+	i is one.
+	i is two.
+	i is three.
+	i is greater than three.
+
+
+
+
+
+
+
+
+
+
+
+
+8.  What will be the output of the following program?
+
+public class NewQuestion
+{
+    public static void main(String[] args)
+    {
+        int j = 6, i = 0;
+        System.out.print("Now i value and j value: ");
+        for (int x = 1; i < ++x; i += x, j -= x)
+        {
+            System.out.print(i + " " + j + ", ");
+        }
+    }
+}
+
+
+Options:
+1.	Now i value and j value: 0 6, 2 4, 4 2,
+2.	Now i value and j value: 0 6, 2 4,
+3.	Program goes into infinite loop
+4.	Compilation Error or Runtime Error
+
+
+
+
+
+
+
+
+
+9. what will be the output of the following program?
+public
+class Test { 
+public
+	static void main(String[] args) 
+	{ 
+		int i = 0; 
+		for (System.out.println("hi"); i < 2; i++) 
+			System.out.println("good morning"); 
+	} 
+} 
+
+
+Options:
+1.	hi
+	good morning
+	hi
+	good morning
+
+2.	hi
+	good morning
+	good morning
+
+
+3.	Compile time error
+
+4.	no output
+
+
+
+
+
+
+
+10.
+class Question
+{
+public static void main(String[] args)
+{
+int i, j;
+for (i=0, j=0; i+j < 20; ++i, j+=i--)
+{
+System.out.println("i+j = " + (i+j));
+}
+}
+}
+
+What does this program print out?
+
+a.5
+b.8
+c.13
+d.Compile error
+
+

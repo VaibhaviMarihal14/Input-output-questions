@@ -1,0 +1,111 @@
+Question 1).
+ans: 1
+
+
+
+Question 2).
+The answer is option (3)
+
+Explanation: 
+Curly braces are optional and without curly braces,
+we can take only one statement under for loop,
+which should not be declarative statement. 
+Here we are declaring a variable ,
+that’s why we will get compile time error saying 
+error: variable declaration not allowed here.
+
+
+
+Question 3).
+The answer is option (2)
+
+Explanation: 
+Initialization part of the for loop will be executed only once in the for loop life cycle.
+Here we can declare any number of variables but should be of same type. 
+By mistake if we are trying to declare different data types variables then,
+we will get compile time error saying,
+error: incompatible types: String cannot be converted to int.
+
+
+
+
+Question 4).
+The answer is option (3)
+
+Explanation:
+Scope of variable is referred to the part of program where the variable can be used.
+In this program variable i is declared in the for loop.
+So scope of variable i is limited to the for loop only that is between { and } of the for loop.
+There is a display statement after for loop where variable i is used which means ,
+i is used out of scope. This leads to compilation error.
+
+
+
+
+
+Question 5).
+The answer is option (4)
+
+Explanation:
+Inside main is the for loop.
+Initialization condition : i = 10
+Terminating condition : i <= 5
+Increment value : -1 (i.e. i--)
+Number of iterations : 6 (i = 10, 9, 8, 7, 6, 5)
+i starts at 10 and for every iteration (cycle),
+value of i is decremented by 1 and it is printed. 
+Values are printed till i = 5. Loop terminates when i = 4 is reached. 
+So values from 10 to 5 are printed.
+
+
+
+
+
+
+Question 6).
+The answer is option (4)
+a~66~C~68~E~f~G~
+
+
+
+
+
+Question 7).
+The answer is option (4)
+
+Inside main, an integer variable i is declared and initialized to 5.
+Then comes a for loop with no initialization and increment part. 
+The terminating condition is i < 6 || i >= 0. The next statement is a switch.
+The parameter to switch is now 5. As there is no matching case label, 
+default is executed and i is greater than three. is printed. 
+Then i -= 6 means i = i - 6 = 5 - 6 = -1. Now for terminating condition is again checked.
+-1 < 6. So again default of switch is executed and i decrements. 
+Thus i value is always negative and for loop executes everytime. 
+So the program goes into infinite loop which is runtime error.
+
+
+
+
+Question 8).
+The answer is option (2)
+
+
+
+Question 9).
+The answer is option (2)
+
+I n the initialization section we can take any valid java statement including System.out.println().
+In the for loop initialization section is executed only once that’s why here it will print first hi
+ and after that good morning.
+
+
+
+Question 10).
+Answer a, b and c are correct.
+
+The thing you have to notice here is that i is always 0, and thus the values of j are printed from 0 to 19...
+This is because in the for loop the increment part: '++i, j+=i--' i is both incremented by one 
+then decremented so it never increases. Meanwhile the expresion for j uses the incremented value of i before it is decremented.
+The incremented value of i is always 1 so j increases by 1 each time.
+
+
