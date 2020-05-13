@@ -134,7 +134,7 @@ d) Throws StackOverflowError
 5.
 import java.io.*; 
 
-class GFG { 
+class Test { 
 	static int fun(int a, int b) 
 	{ 
 		if (b == 0) 

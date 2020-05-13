@@ -62,17 +62,17 @@ class Test {
 public
     static void main(String[] args) 
     { 
-        for (int i = 0, String = "GFG"; i < 2; i++) 
-            System.out.println("HELLO GEEKS"); 
+        for (int i = 0, String = "txt"; i < 2; i++) 
+            System.out.println("HELLO "); 
     } 
 } 
 
 Options:
-1. HELLO GEEKS
+1. HELLO 
 2. Compile time error
-3. HELLO GEEKS
-HELLO GEEKS
-HELLO GEEKS
+3. HELLO 
+HELLO 
+HELLO 
 4. No Output
 
 
